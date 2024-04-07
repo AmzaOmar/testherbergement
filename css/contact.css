@@ -1,0 +1,112 @@
+.info{
+    display: flex;
+    color: #bbb;
+    text-align: center;
+    justify-content: space-around;
+}
+.main h1{
+    text-align: center;
+    color: white;
+
+}
+.main{
+    background-color: black;
+    text-align: center;
+    
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 20px;
+    width: 76%;
+    margin-bottom: 30px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea{
+    max-width: 300px;
+    padding: 5px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.contacts p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 5px 0 30px 60px;
+    cursor: pointer;
+}.contacts p:hover{
+  color: white;
+}
+.contacts p i {
+    margin-right: 50px;
+    font-size: 20px;
+}
+.contacts .social{
+    position: relative;
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  margin-left: 30px;
+    
+}
+.contacts .social li{
+    position: relative; 
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(27,27,27);
+    cursor: pointer; 
+    transition: all .2s ease-in-out;
+
+}
+.contacts .social li:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px white;
+    transition: all .2s ease-in-out;
+  }
+  
+  .contacts .social li:hover{
+    background-color: #fff;
+    color: black;
+  }
+  .contacts .social li a:hover{
+    color: black;
+  }
+ 
+  .contacts .social li:hover:after {
+    opacity: 1;  
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+  } 
+  .contacts li a{
+    color: white;
+  }
+  
+  hr{
+    margin-left: 60px;
+    margin-right: 10px;
+  }
+  .formulaire{
+    max-width: 350px;
+  }

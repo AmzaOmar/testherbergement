@@ -1,0 +1,188 @@
+header{
+    
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/dep1.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.titre{
+    text-align: center;
+}
+.intro div{
+    background-color: blue;
+    text-align: center;
+    background-position: center;
+    display: inline-block;
+    padding: 30px;
+}
+.intro p{
+    text-align: justify;
+}
+
+.intro{
+    
+    color: white;
+    padding-top: 120px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+   
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.img_tete{
+    width: 450px;
+    height: 400px;
+    margin-top: 10%;
+}
+.intro span{
+    color: brown;
+}
+.intro a{
+    color: rgba(234, 13, 13, 1);
+    text-decoration: none;
+} 
+.presentation img{
+    height: 400px;
+    width: 500px;
+
+}
+.presentation{
+    margin-left: 100px;
+    display: flex;
+    margin-top: 30px;
+}
+.presentation2 {
+    margin-left: 100px;
+    display: flex;
+    
+}
+.presentation2 img{
+    height: 400px;
+    width: 500px;
+}
+.presentation2 .texte{
+    width: 450px;
+}
+.presentation2 ul li{
+    color: white;
+    font-weight: bold;
+}
+
+.texte{
+    width: 450px;
+    background-color:#635B5A       ;
+    padding-left: 50px;
+}
+.texte h1{
+    color: rgba(234, 13, 13, 1);
+    font-size: 40px;
+    text-align: center;
+}
+.texte p{
+    color: white;
+    font-size: 1em;
+    text-align : justify;
+    margin-right: 15px;
+}
+@media (max-width: 1024px) {
+    .intro p {
+        font-size: 10px;
+        text-align: justify;
+        margin-left: 20px;
+
+    }
+    .intro div{
+        
+        width: 300px;
+        height: 205px;
+    }
+
+    .intro a {
+        font-size: 14px;
+        margin-left: 10%;
+
+    }
+
+    .intro h1 {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .img_tete {
+        width: 200px;
+        height: 200px;
+        margin-top: 100px;
+    }
+
+    header {
+        height: 500px;
+    }
+
+    .container {
+        height: 500px;
+    }
+
+    .presentation {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .presentation img {
+        height: 500px;
+        width: 100%;
+    }
+
+    .texte {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .texte p {
+        padding-right: 30px;
+        width: 100%;
+    }
+
+    .presentation2 {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .presentation2 img {
+        height: 500px;
+    }
+    .main h1{
+        font-size: 20px;
+    }
+    
+    .info{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+
+
+   
+
+    
+}
+
+@media (max-width: 800px) {
+    .intro h1 {
+        font-size: 15px;
+    }
+
+    .intro h1 {
+        padding-top: 80px;
+    }
+}
